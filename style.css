@@ -1,60 +1,93 @@
-*{
+* {
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    padding: 0
 }
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image:linear-gradient( black,gray);
-    background-size:cover;
-    background-position:center;
+
+body {
+    background-color: #000
 }
-.navbar{
-    width: 90%;
-    margin:auto;
-    padding:35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 5px solid white;
-    padding: 10px;
+
+.card {
+    width: 350px;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
 }
-.container{
-    width:100%;
-    height:70%;
-    display:flex;
-    flex-direction: row;
-    top:50%;
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-    color:white;
+
+.image img {
+    transition: all 0.5s
 }
-.content1, .content2{
-    width:45%;
-    text-align:center;
-    color:white;
-    background-color: gray;
-    border: 2px solid white;
-    height:100%;
+
+.card:hover .image img {
+    transform: scale(1.5)
 }
-.navbar h1{
-    color: white;
-    font-size:50px;
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
 }
-.content1 p{
-    margin: 20px auto;
-    font-size:30px;
+
+.name {
+    font-size: 22px;
+    font-weight: bold
 }
-.content2 h1{
-    font-size: 70px;
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
 }
-.content2 ul li{
-    font-size: 30px;
+
+.idd1 {
+    font-size: 12px
 }
-.profile{
-    width:35%;
-    height:60%;
-    flex-direction:column;
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}
+
+img{
+    border-radius: 50%;
+    size:250px;
 }
